@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Square+Peg&family=Tapestry&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        body {
+          background-image: url("./images/preis.jpg");
+          height: 1100px;
+          margin: 0;
+          padding: 0;
+          /* background-position: center; */
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        table{
+            margin-top: 150px;
+        }
+        img{
+            width: 250px;
+            height: 250px;
+            border-radius: 25px;
+        }
+        .stadt{
+            color: white;
+            background-color: black;
+            font-size: 32px;
+            border-radius: 200px;
+            font-family: 'Tapestry', cursive;
+        }
+
+        .preis{
+            color: white;
+            background-color: black;
+            font-size: 60px;
+            border-radius: 200px;
+            font-family: 'Square Peg', cursive; 
+            margin-left: 80px;
+        }
+        button{
+            background-color: red;
+            color: white;
+            font-size: 50px;
+            border-radius: 20px;
+            box-shadow: 2px 2px 2px;
+        }
+        button:hover{
+            color: red;
+            background-color: white;
+            box-shadow: 4px 4px 4px;
+            cursor: pointer;
+        }
+        
+      </style>  
+
+
+</head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./preis.html">Preis</a></li>
+        <li></li>
+      </ul>
+    </nav>
+    <table>
+        <tr>
+            <th><img src="./images/newyork.jpg" alt="newyork"></th>
+            <th class="stadt">NEW YORK</th>
+            <th class="preis">850Euro</th>
+            <th><button>Now Booking</button></th>
+            
+        </tr>
+        <tr>
+            <th><img src="./images/san fransico.jpg" alt="newyork"></th>
+            <th class="stadt">SANFRANSISCO</th>
+            <th class="preis">950Euro</th>
+            <th><button>Now Booking</button></th>
+        </tr>
+        <tr>
+            <th><img src="./images/cyprus.jpg" alt="newyork"></th>
+            <th class="stadt">CYPRUS</th>
+            <th class="preis">750Euro</th>
+            <th><button>Now Booking</button></th>
+        </tr><tr>
+            <th><img src="./images/dubai.jpg" alt="newyork"></th>
+            <th class="stadt">DUBAI</th>
+            <th class="preis">900Euro</th>
+            <th><button>Now Booking</button></th>
+        </tr>
+    </table>
+  </body>
+</html>

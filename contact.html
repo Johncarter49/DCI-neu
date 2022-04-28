@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+    <link
+
+    rel="stylesheet"
+
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+
+    crossorigin="anonymous"
+
+    referrerpolicy="no-referrer"
+
+  />
+    <style>
+      body {
+        background-image: url("./images/italy.jpg");
+        height: 800px;
+        margin: 0;
+        padding: 0;
+        /* background-position: center; */
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .contact1 {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        /* margin-left: 500px; */
+        color: white;
+
+      }
+
+    #fname, #lname, #email{
+        border-radius: 8px;
+        width: 250px;
+        height: 24px;
+    }
+
+    #comments{
+        border-radius: 8px;
+        width: 250px;
+        height: 200px;
+        box-shadow: 4px black;
+    }
+    #submit{
+        background-color: rgb(201, 198, 198);
+        color: black;
+        font-weight: bold;
+        width: 250px;
+        border-radius: 10px;
+    }
+    #submit:hover{
+        color: white;
+        background-color: black;
+        cursor: pointer;
+    }
+    .contact-überschrift{
+        font-family: 'Tapestry', cursive;
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+        color: rgb(11, 51, 14);
+        font-size: 50px;
+    }
+
+    .contact-paragraph{
+        color: honeydew;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+    }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./preis.html">Preis</a></li>
+      </ul>
+    </nav>
+    <h1 class="contact-überschrift">Contact us!</h1>
+    <p class="contact-paragraph">We are always reachable. We are working 24 hours!!</p>
+    <div class="contact1">
+      <form action="/action_page.php">
+        <label for="fname">First name:</label><br />
+        <input type="text" id="fname" name="fname" /><br />
+        <label for="lname">Last name:</label><br />
+        <input type="text" id="lname" name="lname" /><br /><br />
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" /><br /><br />
+        <form action="/html/tags/html_form_tag_action.cfm" method="post">
+        <div>
+          <textarea
+            name="comments"
+            id="comments"
+            style="font-family: sans-serif; font-size: 1.2em"
+          >Hey... say something!
+            </textarea
+          >
+          <br />
+          <input type="submit" value="Submit" id="submit" />
+        </div>
+      </form>  
+    </form>
+      
+    </div>
+
+    
+  </body>
+</html>
